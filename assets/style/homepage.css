@@ -162,10 +162,10 @@ main {
     border-radius: 50%;
     display: inline;
     height: 140px;
-    position: absolute; /* Position the image absolutely relative to its container */
-    left: 24%; /* Move the image 50% to the left */
-    top: 0; /* Align the top of the image with the top of the container */
-    width: auto; /* Allow the width to be adjusted */
+    position: absolute;
+    left: 24%; 
+    top: 0; 
+    width: auto; 
     border: 1px solid #ffffff;
 }
 .my-info-2{
@@ -569,15 +569,15 @@ main {
 }
 
 .profile-picture {
-    width: 100px; /* Adjust width as needed */
+    width: 100px;
     height: auto;    border-radius: 50%;
 
-    margin-right: 20px; /* Spacing between image and text */
+    margin-right: 20px; 
 }
 
 .user-details {
     flex-grow: 1; 
-    color:#1f1e1e;/* Allow text to take up remaining space */
+    color:#1f1e1e;
 }
 .user-card:hover {
     box-shadow: 3px 8px 16px rgba(0, 0, 0, 0.2);
@@ -639,7 +639,6 @@ footer nav a:hover {
 
 @media (max-width: 1024px) {
 
-    /* Tablet adjustments */
     .container {
         padding: 0 10px;
     }
@@ -690,7 +689,7 @@ footer nav a:hover {
 
 @media (max-width: 768px) {
 
-    /* Mobile adjustments */
+    
     body,
     main {
         padding: 0 5px;

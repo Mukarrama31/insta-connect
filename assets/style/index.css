@@ -244,7 +244,6 @@ p {
         padding: 10px;
         width:376px;
         height:320px;
-        background: url(/assets/img/image-06.webp) bottom / cover no-repeat;
     }
 
     h1, h2 {
@@ -266,7 +265,6 @@ p {
 }
 
 @media (max-width: 768px) {
-    /* Adjustments for mobile devices */
     main {
         flex-direction: column; 
     }
